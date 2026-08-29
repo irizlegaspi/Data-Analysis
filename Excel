@@ -1,4 +1,7 @@
 
+Naming the Cells
+======================
+
 Formula for having using same cell content and will not change the value of the cell:
 =I6*$K$1 ---< vy putting the $ sign in front of the letter and number in cell key.
 
@@ -6,3 +9,69 @@ Naming the cell: this is other way to implement this: by naming the cell --> hig
 go to the left side Name Box and giev the cell a name, without spaces, using dash sign
 
 Go to Formula ribbon, use the "Use in Formula" to remmeber what you named the cell
+
+Go to "Name Manager" to see the formula you've made 
+
+To name cells header: select all data, go to Defined Names --> select "Create from Selection",
+Choose what rows or columns: this time choose the "Top row" to select the header, click ok
+Now, go to Defined Names --> select "Name Manager", fro there you will see the name of each top row cells
+
+
+XLOOKUP - searches vertically or horizonatally for a lookup value
+===========
+
+In a cell type = xlookup( < click the arrow down in a formula bar beside the text view> )
+"Function Arguments" window will open, fill up "Lookup_value", "Lookup_array", and "Return_array"
+"Lookup_value" --> Notebook - (what we are looking up)
+"Lookup_array" --> product Name - where we are going to look B6:B74
+"Return_array" --> Price C6:C74
+
+Use ctrl key + shift key + arrow down to select all what is in the column, click ok
+=XLOOKUP(B1,B6:B74,C6:C74,"Not Found",,-1)
+
+
+
+XLOOKUP DATA MINING - Look at different table
+===========
+Use ctrl key + shift key + arrow down to select all what is in the column, click ok
+=XLOOKUP(H2,$D$2:$D$73,$E$2:$E$73)
+
+Use F4 to automatically append the $ sign.
+
+IF FUNCTION
+==============
+type =if(  click the arrow down in a formula bar beside the text view> )
+Set the following in the argument fields:
+- Logical_test - any value expression that can be evaluated to TRUE or FALSE
+- Value_if_true
+- Value_if_false
+click ok
+=IF(B5>=3,"Bonus","No Bonus")
+=IF(F5=1,"Soup",IF(F5=2,"Sandwich","Salad"))
+
+For nested if click inside the () of if() to show the new logic_test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
