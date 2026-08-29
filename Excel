@@ -54,17 +54,45 @@ For nested if click inside the () of if() to show the new logic_test
 
 
 
+DATABASE FUNCTION
+==================
+Category = field where you are going to put your item that you are searching
+
+COUNTIF() - counting how many items that you are l;ooking for
+=COUNTIF(C5:C62,F5)
+
+SUMIF() - searching the items that you are looking for then adding each expenses of it.
+=SUMIF(C5:C62,F5,D5:D62)
+
+AVERAGEIF() - searching the items that you are looking for then getting the average of each expenses of it.
+=AVERAGEIF(C5:C62,F5,D5:D62)
+
+
+DATA VALIDATION = List; Source: =$C$5:$C$62
+==================
+
+
+GOAL SEEK 
+==================
+Go to  Data --> WHAT-IF-ANALYSIS
+You will see 3 selections
+- Scenatio Manager
+- Goal Seek
+- Data table
+
+Select Goal Seek for Price Estimate
+Fill up the fields:
+- Set cell:           H7     - this is where you want to set you goal (TOTAL)
+- To value:           250000 - this is your number of unit sold
+- By changing cell:   $H$6   - this is your unit sold, get the cell number
 
 
 
-
-
-
-
-
-
-
-
+Select Goal Seek for Units Estimate
+Fill up the fields:
+- Set cell:           H7     - this is where you want to set you goal (TOTAL)
+- To value:           250000 - this is your number of unit sold
+- By changing cell:   $H$6   - this is your unit sold, get the cell number
 
 
 
