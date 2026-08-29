@@ -1,1 +1,8 @@
 
+Formula for having using same cell content and will not change the value of the cell:
+=I6*$K$1 ---< vy putting the $ sign in front of the letter and number in cell key.
+
+Naming the cell: this is other way to implement this: by naming the cell --> highlight the cell with the value,
+go to the left side Name Box and giev the cell a name, without spaces, using dash sign
+
+Go to Formula ribbon, use the "Use in Formula" to remmeber what you named the cell
