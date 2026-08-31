@@ -2,6 +2,42 @@
 https://learn.microsoft.com/en-us/power-bi/
 https://learn.microsoft.com/en-us/training/browse/?products=power-bi
 
+There's a common flow when creating reports with Power BI. 
+First, you start with Power BI Desktop to connect to data and create the report. 
+Then you publish the report to the Power BI service and distribute to consumers.
+
+
+
+The flow of Power BI is:
+1. Connect to data with Power BI Desktop.
+2. Transform data with Power Query Editor (comes with Power BI Desktop).
+3. Model data with Power BI Desktop.
+4. Create visualizations and reports with Power BI Desktop.
+5. Publish report to Power BI service.
+6. Distribute and manage reports in the Power BI service.
+
+The Power BI service also allows you to create high-level dashboards that drill down to reports, 
+and apps to easily group related reports to users in a simple format.
+
+There are three primary components to Power BI:
+
+- Power BI Desktop (desktop application) - available to data analysts and other report creators
+- Power BI service (online platform) - allows you to organize, manage, and distribute your reports and other Power BI items.
+- Power BI Mobile (cross-platform mobile app)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 The building blocks of Power BI are semantic models and visualizations. Create a semantic model and then use visuals to build a report.
 
@@ -13,3 +49,35 @@ The building blocks of Power BI are semantic models and visualizations. Create a
     - calculations to create a semantic model.
 
 2. Then create a report for Visualization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
