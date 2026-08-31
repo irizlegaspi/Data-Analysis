@@ -2,6 +2,15 @@
 https://learn.microsoft.com/en-us/power-bi/
 https://learn.microsoft.com/en-us/training/browse/?products=power-bi
 
+Microsoft Power BI is a complete reporting solution that offers:
+- data preparation, 
+- data visualization, 
+- data distribution, and 
+- data management through development tools and an online platform.
+
+Power BI can scale from simple reports using a single data source to reports requiring complex data modeling and consistent themes. U
+se Power BI to create visually stunning, interactive reports to serve as the analytics and decision engine behind group projects, divisions, or entire organizations.
+
 There's a common flow when creating reports with Power BI. 
 First, you start with Power BI Desktop to connect to data and create the report. 
 Then you publish the report to the Power BI service and distribute to consumers.
@@ -26,19 +35,6 @@ There are three primary components to Power BI:
 - Power BI Mobile (cross-platform mobile app)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 The building blocks of Power BI are semantic models and visualizations. Create a semantic model and then use visuals to build a report.
 
 1. Semantic Models- consists of connected data, transformations, relationships, and calculations
@@ -53,7 +49,12 @@ The building blocks of Power BI are semantic models and visualizations. Create a
 
 
 
+POWER BI SERVICE - provides a simple and interactive user experience to take your data analytics to the next level.
+===================== 
 
+Foundation of Power BI Services:
+1. Workspace - you must use the shared workspace. "My workspace" is ideal only for testing.
+2. Distribute content -create an app in workspace - "Build you app", which provides consumers a simplified interface to access reports and dashboards
 
 
 
