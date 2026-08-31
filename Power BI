@@ -52,13 +52,20 @@ The building blocks of Power BI are semantic models and visualizations. Create a
 POWER BI SERVICE - provides a simple and interactive user experience to take your data analytics to the next level.
 ===================== 
 
-Foundation of Power BI Services:
-1. Workspace - you must use the shared workspace. "My workspace" is ideal only for testing.
-2. Distribute content -create an app in workspace - "Build you app", which provides consumers a simplified interface to access reports and dashboards
 
+1. Workspace - are the foundation of the PBI Services, you must use the shared workspace. 
+   "My workspace" is ideal only for testing.
+2. Explore sample reports - loads to "My workspace so you can explore privately". You can access sample reports 
+in the "Learn" section of the Navigation pane.
+3. Distribute content -create an app in workspace - which provides consumers a simplified interface to access reports and dashboards.
+In app coniguration you can "Build youy app",
+   Build you app --> Setup Configuration--> Select content to include --> Choose your audience
+   Apps are the ideal sharing solution within any organization
+   ----
+3. Template App - to access template app - allow you to find an existing app that suits your needs and then you connect your data.
+Select App icon from the left navigation pane > Get apps > Template apps.
 
-
-
+3. Refresh a semantic model - configure scheduled refreshes of your semantic models in the Power BI service.
 
 
 
